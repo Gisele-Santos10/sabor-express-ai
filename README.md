@@ -39,6 +39,9 @@ Com isso, buscamos melhorar a eficiência operacional e a satisfação dos clien
 │ ├── edges.csv
 │ └── deliveries.csv
 └── /images
+├── grafo_cidade.png
+├── rota.png
+└── clustering_entregas.png
 ```
 
 ---
