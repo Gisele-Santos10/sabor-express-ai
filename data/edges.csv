@@ -1,0 +1,12 @@
+u,v,weight
+Base,Centro,2.2
+Base,Bairro B,3.0
+Centro,Bairro A,2.0
+Centro,Bairro B,2.1
+Bairro A,Bairro C,2.2
+Bairro C,Bairro D,2.4
+Bairro A,Bairro E,2.6
+Bairro E,Bairro F,2.2
+Bairro C,Bairro F,1.8
+Bairro B,Bairro D,2.7
+Centro,Bairro D,3.2
