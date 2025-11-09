@@ -53,6 +53,14 @@ A cidade é representada como um **grafo ponderado**, em que:
 
 O algoritmo deve encontrar as **rotas mais curtas** entre múltiplos pontos e propor **agrupamentos inteligentes**.
 
+
+### 🗺️ Diagrama do Grafo da Cidade
+
+A imagem abaixo mostra o **grafo da cidade** modelado pelo código,  
+com os **bairros representando os nós** e as **ruas representando as arestas** usadas nos cálculos do Dijkstra e A*.
+
+![Diagrama do grafo da cidade](images/grafo_cidade.png)
+
 ---
 
 ## Algoritmos Utilizados
@@ -69,6 +77,14 @@ Agrupa os pontos de entrega em **zonas geográficas próximas**, permitindo dist
 ### 🔹 Heurística Gulosa
 Define a ordem de visita dentro de cada cluster: sempre ir para o **ponto mais próximo** a partir da posição atual.
 
+
+### 🚚 Exemplo de Rota Otimizada
+
+A imagem abaixo mostra um exemplo de **rota gerada pelo algoritmo de Dijkstra**,  
+representando o **trajeto mais curto** entre os pontos de entrega definidos.  
+
+![Rota otimizada calculada pelo algoritmo de Dijkstra](images/rota.png)
+
 ---
 
 ## Métricas e Resultados
@@ -80,6 +96,14 @@ O projeto exibe:
 - **Comparação com um baseline** (ordem ingênua das entregas).
 
 Essas análises permitem observar a **redução da distância total percorrida**, indicando **melhor eficiência**.
+
+
+### 📊 Agrupamento de Entregas com K-Means
+
+A figura abaixo mostra o **resultado do agrupamento das entregas** usando o algoritmo **K-Means**.  
+Cada cor representa uma **zona de entregas** diferente, o que permite dividir melhor o trabalho entre os entregadores.
+
+![Clusters de entregas formados pelo K-Means](images/clustering_entregas.png)
 
 ---
 
